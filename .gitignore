@@ -1,0 +1,30 @@
+# uv / virtualenv
+.venv/
+uv_python/
+
+# python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+
+# build & dist
+build/
+dist/
+*.egg-info/
+*.egg
+
+# env & secrets
+.env
+.env.*
+!.env.example
+
+# os / editor
+.DS_Store
+Thumbs.db
+*~
+.vscode/
+.idea/

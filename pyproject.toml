@@ -1,0 +1,9 @@
+[project]
+name = "type-me"
+version = "0.1.0"
+description = "Human-like auto typer for Linux (Wayland/X11) — testing/demo use"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.uv]
+package = false
